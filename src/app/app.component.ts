@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component.js';
 import { UserProfileComponent } from './user-profile/user-profile.component.js';
 import { SignUpComponent } from './sign-up/sign-up.component.js';
 import { FormComponent } from './form/form.component.js';
+import { FormworkshopComponent } from './formworkshop/formworkshop.component.js';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,7 @@ import { FormComponent } from './form/form.component.js';
     UserProfileComponent,
     SignUpComponent,
     FormComponent,
+    FormworkshopComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
